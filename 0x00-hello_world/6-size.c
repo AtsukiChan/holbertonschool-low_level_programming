@@ -1,4 +1,5 @@
-#include<stdio.h>
+#include <stdio.h>
+#include <sys/cdefs.h>
 /**
 * main - Defines all the data types, then prints their size using sizeof.
 * Return: 0
