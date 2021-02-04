@@ -10,8 +10,12 @@ int main(void)
 
 	for (b = '0' ; b <= '9' ; b++)
 	{	putchar(b);
-		putchar(',');
+
+		if (b <= '8')
+	{	putchar(',');
 		putchar(' '); }
+	}
+
 	putchar ('\n');
 	return (0);
 }
