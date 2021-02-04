@@ -1,12 +1,16 @@
 #include <stdio.h>
+/**
+* main - For loop that prints out the alphabet in lowercase
+* Return: 0
+*/
 
 int main(void)
 {
 	char a;
 
-	for(a = 'a' ; a <= 'z' ; a++) {
-		putchar(a);
-	}
+	for (a = 'a' ; a <= 'z' ; a++)
+	{	putchar(a); }
+
 	putchar('\n');
-	return(0);
+	return (0);
 }
