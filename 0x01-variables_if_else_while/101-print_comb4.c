@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - does the thing
-* Return: 0
-*/
+ * main - does the thing
+ * Return: 0
+ */
 int main(void)
 {
 	int a;
@@ -13,14 +13,17 @@ int main(void)
 	{
 		for (b = a + 1; b <= '9'; b++)
 		{
-			for (c = a + 1; b <= '9'; c++)
+			for (c = b + 1; c <= '9'; c++)
+			{
 			putchar(a);
 			putchar(b);
 			putchar(c);
-			if (a != '8')
-			{
-				putchar(',');
-				putchar(' ');
+
+			if (a != '7')
+				{
+			putchar(',');
+			putchar(' ');
+				}
 			}
 		}
 	}
