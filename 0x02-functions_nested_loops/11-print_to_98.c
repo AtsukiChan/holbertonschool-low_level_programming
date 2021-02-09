@@ -1,27 +1,10 @@
-#include <stdio.h>
 #include "holberton.h"
 
 /**
- * main - Prints Holberton
+ * print_to_98 - Prints numbers up until 98
+ * @n: Number
  * Return: 0
  */
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
-void print_to_98(int n);
-
-int main(void)
-{
-    print_to_98(0);
-    print_to_98(98);
-    print_to_98(111);
-    print_to_98(81);
-    print_to_98(-10);
-    return (0);
-}
 
 void print_to_98(int n)
 {
