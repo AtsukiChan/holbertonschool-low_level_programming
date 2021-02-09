@@ -2,11 +2,11 @@
 
 /**
  * _abs - Absolute value
- * @r - number checked
+ * @r: number checked
  * Return: Always 0.
  */
 
-int abs(int r) 
+int _abs(int r)
 {
 	if (r > 0)
 	{

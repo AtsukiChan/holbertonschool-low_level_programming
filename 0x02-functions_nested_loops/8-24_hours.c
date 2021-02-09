@@ -1,8 +1,7 @@
 #include "holberton.h"
 
 /**
- * main - Prints every hour and min of a day
- *
+ * jack_bauer - Prints every hour and min of a day
  * Return: Always 0.
  */
 

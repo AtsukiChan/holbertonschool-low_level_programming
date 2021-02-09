@@ -1,11 +1,12 @@
 #include "holberton.h"
 
 /**
- * main - Prints the time table of 9 starting with 0
+ * times_table - Prints the time table of 9 starting with 0
  * Return: 0
  */
 
-void times_table(void) {
+void times_table(void)
+{
 
 	int x, y, product;
 
