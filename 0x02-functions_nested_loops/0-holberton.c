@@ -1,8 +1,6 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
  * main - Prints Holberton
- * _putchar - defines new putchar
- * c - letter to be printed
  * Return: 0
 */
 
