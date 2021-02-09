@@ -1,44 +1,24 @@
-#include <stdio.h>
-#include <unistd.h>
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * _abs - Absolute value
+ * @r - number checked
  * Return: Always 0.
  */
 
-int _putchar(char c)
+int abs(int r) 
 {
-	return (write(1, &c, 1));
-}
-
-int _abs(int);
-
-int main(void)
-{
-	int r;
-
-	r = _abs(-1);
-	printf("%d\n", r);
-	r = _abs(0);
-	printf("%d\n", r);
-	r = _abs(1);
-	printf("%d\n", r);
-	r = _abs(-98);
-	printf("%d\n", r);
-	return (0);
-}
-
-int abs(int r) {
-
-	int mod_r =(r * -1);
-
 	if (r > 0)
 	{
-		return r;
+		return (r);
 	}
-
+	else if (r < 0)
+	{
+		return (r * -1);
+	}
 	else
-		return 1;
+	{
+		return (0);
+	}
 }
 

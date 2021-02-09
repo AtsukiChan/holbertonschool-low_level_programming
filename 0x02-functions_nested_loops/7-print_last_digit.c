@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 
 /**
@@ -6,24 +5,12 @@
  * Return: Always 0.
  */
 
-int print_last_digit(int);
-
-int main(void)
+int print_last_digit(int lastDigit)
 {
-	int r;
-
-	print_last_digit(98);
-	print_last_digit(0);
-	r = print_last_digit(-1024);
-	_putchar('0' + r);
-	_putchar('\n');
-	return (0);
-}
-
-int print_last_digit(int)
-{
-	int lastDigit;
-	lastDigit = r % 10
-	return (lastDigit);
+	lastDigit = lastDigit % 10;
+	if (lastDigit < 0)
+		lastDigit = -lastDigit;
+		_putchar(lastDigit + '0');
+		return (lastDigit);
 }
 
