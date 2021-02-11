@@ -1,5 +1,9 @@
 #include "holberton.h"
 
+/**
+ * more_numbers - Prints numbers 0-14
+ */
+
 void more_numbers(void)
 {
 	int numbers;
@@ -18,4 +22,3 @@ void more_numbers(void)
 		_putchar('\n');
 	}
 }
-	
