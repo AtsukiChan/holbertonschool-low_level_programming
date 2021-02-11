@@ -6,18 +6,17 @@
 
 void more_numbers(void)
 {
-	int numbers;
-	int numOfRows;
+	int num, total;
 
-	for (numOfRows = 0; numOfRows <= 10; numOfRows++)
+	for (total = 0; total <= 10; total++)
 	{
-		for (numbers = '0'; numbers <= 14; numbers++)
+		for (num = 0; num <= 14; num++)
 		{
-			if (numbers > 9)
+			if (num > 9)
 			{
-				_putchar((numbers / 10) + '0');
+				_putchar((num / 10) + '0');
 			}
-			_putchar((numbers % 10) + '0');
+			_putchar((num % 10) + '0');
 		}
 		_putchar('\n');
 	}
